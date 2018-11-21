@@ -8,6 +8,7 @@ class Shush:
 
     @commands.command(pass_context=True, no_pm=True)
     async def summon(self, ctx):
+        pass
 
 bot = commands.Bot(command_prefix=commands.when_mentioned_or('!'), description='A bot tht shushes for the sake of '
                                                                                'productivity.')
