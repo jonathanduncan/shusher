@@ -10,8 +10,9 @@ class Shush:
     async def summon(self, ctx):
         pass
 
-bot = commands.Bot(command_prefix=commands.when_mentioned_or('!'), description='A bot tht shushes for the sake of '
-                                                                               'productivity.')
+
+description = 'A bot tht shushes for the sake of productivity.'
+bot = commands.Bot(command_prefix=commands.when_mentioned_or('!'), description=description)
 bot.add_cog(Shush(bot))
 bot.run('NDI0NjQyNjYzMjAzOTk1NjQ4.DY73zQ.fxN6wrlpGXmmL2_QzSeKZITmNKs')
 
